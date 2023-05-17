@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Bugsly Page</title>
+    <title>buglsy.ai is always judging.</title>
     <style>
         body, html {
+            width: 100%;
             height: 100%;
+            
+            min-width: 100%;
             margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #F0F0F0;
+            background-color: #F6F6F6F6F6;
         }
 
         .image-container {
@@ -19,18 +22,20 @@
         }
 
         .image-container img {
-            width: 100%;
+            width: auto;
             height: auto;
             max-width: 100%;
             max-height: 100vh;
-            min-width: 100px;
-            object-fit: contain;
+     
+            object-fit: cover;
         }
     </style>
 </head>
 <body>
     <div class="image-container">
-        <img src="assets/bugsly.gif" alt="Bugsly">
+        <img src="assets/bugsly.gif" alt="Bugsly is judging you.">
     </div>
+    <div class="image-container">
+     </div>
 </body>
 </html>
